@@ -1,0 +1,32 @@
+.history{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 50px;
+    table
+    {
+        width:70%;
+        
+        thead {
+            color:white;
+            background-color: #04AA6D;
+
+            
+            th{
+                padding:10px;
+                font-size: 18px;
+                font-weight: 500;
+            }
+        }
+
+        tbody {
+
+            td {
+                padding:5px;
+            }
+            tr:nth-child(even){
+                background-color: rgb(241, 241, 241);
+            } 
+        }
+    }
+}
