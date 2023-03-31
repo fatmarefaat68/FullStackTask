@@ -11,7 +11,7 @@ const resultSchema = mongoose.Schema(
     },
     status: {
       type: String,
-      required: true,
+      // required: true,
     },
   },
   {
